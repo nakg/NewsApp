@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32133F127AFE51A0003E6C8 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32133F027AFE51A0003E6C8 /* SwiftUIWebView.swift */; };
+		B32133F327AFE5C80003E6C8 /* NewsArticleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32133F227AFE5C80003E6C8 /* NewsArticleWebView.swift */; };
 		B33FE53127AE69BF00F172EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33FE53027AE69BF00F172EB /* AppDelegate.swift */; };
 		B33FE53327AE69BF00F172EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33FE53227AE69BF00F172EB /* SceneDelegate.swift */; };
 		B33FE53527AE69BF00F172EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33FE53427AE69BF00F172EB /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B32133F027AFE51A0003E6C8 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		B32133F227AFE5C80003E6C8 /* NewsArticleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleWebView.swift; sourceTree = "<group>"; };
 		B33FE52D27AE69BF00F172EB /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33FE53027AE69BF00F172EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B33FE53227AE69BF00F172EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B32133EF27AFE5040003E6C8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B32133F027AFE51A0003E6C8 /* SwiftUIWebView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		B33FE52427AE69BF00F172EB = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +88,7 @@
 		B33FE52F27AE69BF00F172EB /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				B32133EF27AFE5040003E6C8 /* Components */,
 				B33FE54F27AE99E900F172EB /* Services */,
 				B33FE54C27AE98C000F172EB /* Config */,
 				B33FE54927AE6DC400F172EB /* Views */,
@@ -125,6 +138,7 @@
 				B33FE55827AEB3BC00F172EB /* NewsHome.swift */,
 				B33FE55A27AEB4DB00F172EB /* NewsListView.swift */,
 				B33FE55C27AEB4F300F172EB /* NewsCell.swift */,
+				B32133F227AFE5C80003E6C8 /* NewsArticleWebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,7 +238,9 @@
 				B33FE55127AE9A0B00F172EB /* NetworkManager.swift in Sources */,
 				B33FE54B27AE96C600F172EB /* News.swift in Sources */,
 				B33FE55527AEA29800F172EB /* NewsListVM.swift in Sources */,
+				B32133F327AFE5C80003E6C8 /* NewsArticleWebView.swift in Sources */,
 				B33FE54E27AE98D200F172EB /* API.swift in Sources */,
+				B32133F127AFE51A0003E6C8 /* SwiftUIWebView.swift in Sources */,
 				B33FE53327AE69BF00F172EB /* SceneDelegate.swift in Sources */,
 				B33FE55927AEB3BC00F172EB /* NewsHome.swift in Sources */,
 				B33FE55D27AEB4F300F172EB /* NewsCell.swift in Sources */,
